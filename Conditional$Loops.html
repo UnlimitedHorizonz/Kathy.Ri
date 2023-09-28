@@ -1,0 +1,100 @@
+
+<!DOCTYPE html> 
+<html>
+<meta charset = "utf-8">
+<title>Conditionals & Loops</title>
+<head>
+</body>
+<script type = "text/javascript">
+/*Conditional statements*/
+/*if... else statements*/
+
+var gpa = 4.41; /*remember all of the conditional statments are being comapred to this variable*/
+var status = "0";
+
+if (gpa >= 4.5)    /*Simple Conditional because this is a single comparison expression*/
+
+{
+status = "Excellent Standing";
+}
+
+else 
+if (gpa >= 4.0  && gpa < 4.41)   /*this is a complex statement because it has 2 expressions conected by the &&(logical operator)*/
+{
+status = " Almost Excellent";
+}
+
+else
+{
+status = "Regular Standing";
+} 
+document.write(status);
+document.write("</br>"); /*this is to  place this result on a seperate line*/
+
+/* switch:  use this instead of if....else.  switch statement allows you to do if...else on multiple conditions at the same time, we can only use = 
+/*switch:  swaps out item in the variable for items in the code, so a comparison can be done with Multiple conditions w/o using if....else, but it is the same thing!*/
+
+var item = "grape"; /*this is a string*/
+var price = 0;
+
+switch (item)
+{
+
+case "apple":  /* this means if item is = to apples, price = 10*/
+price = 10;
+break;
+
+
+case "orange":
+price = 8;
+break;
+
+case "grape":      /* this is where the else if is: else if item is = to "grape" price = 15*/
+price = 15;
+break;
+
+default: 
+price = 1;
+break;
+
+}
+document.write(price);
+/* /* watch Youtube channel: 
+ CCSIT-KFU  (4) JavaScript: Conditionals and Loops*/
+
+/*looping statements: you need 3 things=
+1. inital varible 
+2. Condition
+3.update(increment)*/
+/* for loop statements*/
+for (var i=0; i<10; i+=2)
+/*for (var i=10; i>0; i--)*/
+{
+document.write("<br/>"); /*this is a break*/
+document.write(i);
+
+}
+/* while loop statements*/
+var i = 10;
+while (i > 0)
+{
+document.write("<br/>"); /*this is a break*/
+document.write(i);
+i--;
+}
+
+/*do..while statement*/
+i = 10;  /*inital variable*/
+do 
+{
+document.write("<br/>"); /*this is a break*/
+document.write(i);
+i++; /*update/increment*/
+
+}while (i < 10); /*condition*/
+
+</script>
+</body>
+</html>
+
+

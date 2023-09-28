@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+        table {
+            width: 300px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>A</th>
+                <th>B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rent</td>
+               <td><input type="text" id="rent" value="400"></td>
+            </tr>
+            <tr>
+                <td>Food</td>
+              <td><input type="text" id="Food" value="200"></td>
+            </tr>
+ <tr>
+                <td>Entertainment</td>
+               <td><input type="text" id="Entertainment" value="100"></td>
+            </tr>
+ <tr>
+                <td>Transportation</td>
+              <td><input type="text" id="Transportation" value="50"></td> 
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+               <td><input type="text" id="total" value="750"></td>
+            </tr>
+    </table>
+<script>
+document.getElementById("rent").onchange = function() {myFunction()};
+document.getElementById("Food").onchange = function() {myFunction()};
+document.getElementById("Entertainment").onchange = function() {myFunction()};
+document.getElementById("Transportation").onchange = function() {myFunction()};
+function myFunction() {
+var x = document.getElementById("rent");
+var y = document.getElementById("Food");
+var z = document.getElementById("Entertainment");
+var w = document.getElementById("Transportation");
+var total = document.getElementById("total");
+total.value=parseFloat(x.value)+parseFloat(y.value)+parseFloat(z.value)+parseFloat(w.value);
+}
+</script>
+
+</body>
+</html>
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

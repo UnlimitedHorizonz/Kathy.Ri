@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cookies>
+<title>Gramdma Whites Cookies</title>
+<value> calories per serving:
+<mn>260</mn>
+</value>
+
+
+
+<fatcalories=> 
+<mn>100</mn>
+</fat calories>
+
+<mn>11g</mn>
+<saturated:>
+<mn>2g</mn>
+</saturated>
+
+<cookies/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Nutrition Information XML Document) Create an XML document that marks up the nutrition facts for a package of Grandma White’s cookies. 
+A package of cookies has a serving size of 1 package and the following nutritional value per serving: 260 calories, 
+100 fat calories, 11 grams of fat, 2 grams of saturated fat, 5 milligrams of cholesterol, 210 milligrams of sodium, 
+36 grams of total carbohydrates, 2 grams of fiber, 15 grams of sugars and 5 grams of protein. Name this document nutrition.xml. L
+oad the XML document into Internet Explorer. [Hint: Your markup should contain elements describing the product name, serving size/amount, 
+calories, sodium, cholesterol, proteins, etc. Mark up each nutrition fact/ingredient listed above.]-->

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+
+<h2>Tip Calculator</h2>
+
+<div>
+<label for="total_cost">Total Cost:</label>  
+<input type="text" id="total_cost" />
+</div>
+
+<div>
+<label for="tip_perc">Tip Percentage:</label>  
+<input type="text" id="tip_perc" />
+</div>
+
+<div class="button">
+<button type="submit" onclick="submitForm()">Calculate Tip</button>
+</div>
+<br/><br/>
+
+<div>
+<label id="result"></label>
+</div>
+
+<script>
+function submitForm() {
+        
+    var cost = parseFloat(document.getElementById('total_cost').value);
+    var perc = parseFloat(document.getElementById('tip_perc').value);
+    
+    var tip = cost * perc / 100.0;
+        
+    document.getElementById('result').innerHTML = 'Tip: $' + tip.toFixed(2);
+}
+
+</script>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Finance </title>
+                <script type="text/javascript">
+                        var i; 
+                        var no; 
+                        var accountNo; 
+                        var bBalance; 
+                        var totalExpenses;
+                        var totalCredits;
+                        var creditLimit;
+                        var nBalance;
+                        no = window.prompt( "How many customers do we need consider? " );
+                        i = 1;
+                        while ( i <= no )
+                        {
+                                ++i;
+                                accountNo = window.prompt( "Account Number: " );
+                                bBalance = window.prompt( "Balance at beginning of month: " );
+                                totalExpenses = window.prompt( "Total of all items charged by the customer this month: " );
+                                totalCredits = window.prompt( "Total of all credits applied to this customer's account this month: " );
+                                creditLimit = window.prompt( "Allowed credit limit: " );
+                                nBalance = parseInt( bBalance ) + parseInt( totalExpenses ) - parseInt( totalCredits );
+                                document.writeln( "<br />Account number: " + accountNo );
+                                document.writeln( "<br />Credit limit: " + creditLimit );
+                                document.writeln( "<br />Beginning balance: " + bBalance );
+                                document.writeln( "<br />Total Expenditures: " + totalExpenses );
+                                document.writeln( "<br />Total Credit Payments: " + totalCredits );
+                                document.writeln( "<br />New Balance: " + nBalance);
+                                if ( nBalance > creditLimit )
+                                {
+                                        document.writeln( "<br />Credit Limit exceeded!!" );
+                                }
+                                document.writeln( "<br />" );
+                        }
+                </script>
+        </head>
+        <body>
+        </body>
+</html>

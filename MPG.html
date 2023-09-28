@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+        <meta charset="utf-25">
+        <head>
+                <title>>KATHYs Mileage Calculator</title>
+                <script type="text/javascript">
+                        var n1; 
+                        var n2; 
+                        var n3; 
+                        var gallon; 
+                        var miles; 
+                        var tankCount; 
+                        var totalMiles; 
+                        var totalGallons; 
+                        var totalMileage; 
+                        var i; 
+                        //Initialisations start here
+                        total = 0; 
+                        tankCount = 0; 
+                        totalMiles = 0;
+                        totalGallons = 0;
+                        i = 0;          
+                        n1 = window.prompt( "How many tanks of gas used?" );
+                        tankCount = parseInt(n1);
+                        while( tankCount != 0 )  
+                        {
+                                i++;  
+                                n2 = window.prompt( "How many miles driven?" );
+                                n3 = window.prompt( "How many gallons of gas used?" );
+                                miles = parseInt( n2 );
+                                gallon = parseInt( n3 );
+                                total = miles / gallon;
+                                document.writeln("For tank " + i + " the miles per gallon was " + total );
+                                document.writeln("<br />");
+                                totalMiles = totalMiles + miles;
+                                totalGallons = totalGallons + gallon;
+                                totalMileage = totalMiles / totalGallons;
+                                document.writeln( "The total miles per gallon was " + totalMileage );
+                                document.writeln("<br />");
+                                document.writeln("<br />");
+                                tankCount--;    
+                        }
+                </script>
+        </head>
+        <body></body>
+</html>
