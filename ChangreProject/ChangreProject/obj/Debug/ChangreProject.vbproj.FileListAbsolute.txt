@@ -1,0 +1,12 @@
+C:\Users\Kathy Richards\Desktop\CS15\ChangreProject\ChangreProject\bin\Debug\ChangreProject.exe.config
+C:\Users\Kathy Richards\Desktop\CS15\ChangreProject\ChangreProject\bin\Debug\ChangreProject.exe
+C:\Users\Kathy Richards\Desktop\CS15\ChangreProject\ChangreProject\bin\Debug\ChangreProject.pdb
+C:\Users\Kathy Richards\Desktop\CS15\ChangreProject\ChangreProject\bin\Debug\ChangreProject.xml
+C:\Users\Kathy Richards\Desktop\CS15\ChangreProject\ChangreProject\obj\Debug\ChangreProject.vbprojAssemblyReference.cache
+C:\Users\Kathy Richards\Desktop\CS15\ChangreProject\ChangreProject\obj\Debug\ChangreProject.Form1.resources
+C:\Users\Kathy Richards\Desktop\CS15\ChangreProject\ChangreProject\obj\Debug\ChangreProject.Resources.resources
+C:\Users\Kathy Richards\Desktop\CS15\ChangreProject\ChangreProject\obj\Debug\ChangreProject.vbproj.GenerateResource.cache
+C:\Users\Kathy Richards\Desktop\CS15\ChangreProject\ChangreProject\obj\Debug\ChangreProject.vbproj.CoreCompileInputs.cache
+C:\Users\Kathy Richards\Desktop\CS15\ChangreProject\ChangreProject\obj\Debug\ChangreProject.exe
+C:\Users\Kathy Richards\Desktop\CS15\ChangreProject\ChangreProject\obj\Debug\ChangreProject.xml
+C:\Users\Kathy Richards\Desktop\CS15\ChangreProject\ChangreProject\obj\Debug\ChangreProject.pdb

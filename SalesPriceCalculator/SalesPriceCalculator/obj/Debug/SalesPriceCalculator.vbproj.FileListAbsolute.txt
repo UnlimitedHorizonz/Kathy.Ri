@@ -1,0 +1,12 @@
+C:\Users\Kathy Richards\Desktop\CS15\SalesPriceCalculator\SalesPriceCalculator\bin\Debug\SalesPriceCalculator.exe.config
+C:\Users\Kathy Richards\Desktop\CS15\SalesPriceCalculator\SalesPriceCalculator\bin\Debug\SalesPriceCalculator.exe
+C:\Users\Kathy Richards\Desktop\CS15\SalesPriceCalculator\SalesPriceCalculator\bin\Debug\SalesPriceCalculator.pdb
+C:\Users\Kathy Richards\Desktop\CS15\SalesPriceCalculator\SalesPriceCalculator\bin\Debug\SalesPriceCalculator.xml
+C:\Users\Kathy Richards\Desktop\CS15\SalesPriceCalculator\SalesPriceCalculator\obj\Debug\SalesPriceCalculator.vbprojAssemblyReference.cache
+C:\Users\Kathy Richards\Desktop\CS15\SalesPriceCalculator\SalesPriceCalculator\obj\Debug\SalesPriceCalculator.Form1.resources
+C:\Users\Kathy Richards\Desktop\CS15\SalesPriceCalculator\SalesPriceCalculator\obj\Debug\SalesPriceCalculator.Resources.resources
+C:\Users\Kathy Richards\Desktop\CS15\SalesPriceCalculator\SalesPriceCalculator\obj\Debug\SalesPriceCalculator.vbproj.GenerateResource.cache
+C:\Users\Kathy Richards\Desktop\CS15\SalesPriceCalculator\SalesPriceCalculator\obj\Debug\SalesPriceCalculator.vbproj.CoreCompileInputs.cache
+C:\Users\Kathy Richards\Desktop\CS15\SalesPriceCalculator\SalesPriceCalculator\obj\Debug\SalesPriceCalculator.exe
+C:\Users\Kathy Richards\Desktop\CS15\SalesPriceCalculator\SalesPriceCalculator\obj\Debug\SalesPriceCalculator.xml
+C:\Users\Kathy Richards\Desktop\CS15\SalesPriceCalculator\SalesPriceCalculator\obj\Debug\SalesPriceCalculator.pdb
